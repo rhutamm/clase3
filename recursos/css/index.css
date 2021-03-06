@@ -3,3 +3,6 @@ body{
     margin: 0px;
     background-color: white;
 }
+header{
+    background: url(/recursos/imagenes/foto1.jpg);
+}
