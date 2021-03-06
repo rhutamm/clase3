@@ -4,9 +4,16 @@ body{
     background-color: white;
 }
 header{
-    background: url('/recursos/imagenes/foto1.jpg');
+    background: white url('../imagenes/foto1.jpg') no-repeat;
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 0px;
+    background-size: cover;
+
 }
 h1{
     font-size: 60px;
+    text-align: center;
 
 }
