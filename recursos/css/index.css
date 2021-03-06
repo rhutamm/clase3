@@ -4,5 +4,8 @@ body{
     background-color: white;
 }
 header{
-    background: url(/recursos/imagenes/foto1.jpg);
+    background: url('/recursos/imagenes/foto1.jpg');
+}
+h1{
+
 }
