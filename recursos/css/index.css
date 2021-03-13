@@ -10,10 +10,16 @@ header{
     position: fixed;
     top: 0px;
     background-size: cover;
+    z-index: -1;
 
 }
 h1{
     font-size: 60px;
     text-align: center;
 
+}
+.foto img{
+   position: relative;
+   top: 200px;
+   left: 150px;
 }
