@@ -4,32 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turismo en Nicaragua</title>
-   
+    <title>Practica CSS</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora&family=Noto+Serif&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-    <body>
-        <header class="banner">
-            <h1>Descubriendo las maravillas de Nicaragua.</h1>
-        </header>
+    <header id="header">
+        <nav>
+            <ul>
+                <li class="fas fa-home"><a href="index.html">  Home</a></li>
+                <li class="fas fa-id-card"><a href="contactos"> Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        
-        <ul>
-            <li><a href="#ecoturismo">Ecoturismo</a></li>
-            <li><a href="">Turismo de Playa</a></li>
-            <li><a href="">Ciudades coloniales</a></li>
-            <li><a href="">Haciendas de café</a></li>
-            <li><a href="">Recorriendo las ciudades</a></li>
-        </ul>
-        <div id="ecoturismo">
-            <h2>Ecoturismo</h2>
-            <p></p>
+        <section id="tapContenedor">
+            <ul>
+                 <li class="botones"><a href="#divProd">Productos</a></li>
+                <li class="botones"><a href="#divServicios">Servicios</a></li>
+                <li class="botones"><a href="#divAsesorias">Asesorias</a></li>
+            </ul>
+            <section id="tapContenido">
+            <div id="divProd" class="fab fa-product-hunt">
+                <h2>Nuestros Productos</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet eius repellat, blanditiis vero dicta, repellendus ratione rem nemo autem odio aperiam ullam ab? Magni cum eius quia aspernatur labore.
+                </p>
+            </div>
+            <div id="divServicios" class="fas fa-handshake">
+                <h2>Nuestros Servicios</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet eius repellat, blanditiis vero dicta, repellendus ratione rem nemo autem odio aperiam ullam ab? Magni cum eius quia aspernatur labore.
+                </p>
+            </div>
+            <div id="divAsesorias" class="fas fa-phone-volume">
+                <h2>Nuestras Asesorias</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet eius repellat, blanditiis vero dicta, repellendus ratione rem nemo autem odio aperiam ullam ab? Magni cum eius quia aspernatur labore.
+                </p>
+            </div>
+        </section>
+        </section> 
+        <div id="detalleInfo">
+            <table>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Nombre</th>
+                    <th>Observaciones</th>
+                </tr>
+                <tr>
+                    <td>Prod01</td>
+                    <td>Producto 01</td>
+                    <td>Algunos Comentarios</td>
+                </tr>
+                <tr>
+                    <td>Prod02</td>
+                    <td>Producto 02</td>
+                    <td>Algunos Comentarios</td>
+                </tr>
+                <tr>
+                    <td>Serv01</td>
+                    <td>Servicio 01</td>
+                    <td>Algunos Comentarios</td>
+                </tr>
+                <tr>
+                    <td>Serv02</td>
+                    <td>Servicio 02</td>
+                    <td>Algunos Comentarios</td>
+                </tr>
+                <tr>
+                    <td>Asesorias</td>
+                    <td>Asesorias Creativas</td>
+                    <td>Algunos Comentarios</td>
+                </tr>
+            </table>
         </div>
-        <div id="turismo">
-            <h2>Turismo de Playa</h2>
-            <p></p>
-        </div>
+        <footer>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </footer>
     </main>
 </body>
 </html>

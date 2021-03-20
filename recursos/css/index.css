@@ -1,25 +1,102 @@
+*{
+ text-decoration: none;
+font-family: 'Lora', serif;
+color: black;
+
+}
 body{
+    background: white;
     padding: 0px;
     margin: 0px;
-    background-color: white;
+    text-decoration: none;
 }
 header{
-    background: white url('../imagenes/foto1.jpg') no-repeat;
-    width: 100%;
-    height: 500px;
-    position: fixed;
-    top: 0px;
-    background-size: cover;
-    z-index: -1;
+    display: flex;
+    background: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0px;
 
 }
-h1{
-    font-size: 60px;
-    text-align: center;
+header li{
+    font-size: 25px;
+    margin: 10px;
+    background: rgb(234, 235, 243);
+    padding: 15px;
+    border-radius: 13px;
+    border: none;
+    box-shadow: 9px 9px 16px rgba(147, 168, 199, 0.6), -9px -9px 16px rgba(235, 239, 250, 0.5);
+    color: black;
+    
+}
+a:hover{
+    color: cornflowerblue;
+}
+#tapContenido {
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+   }
+   
+#tapContenedor ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;       
+}
+
+.botones {
+    background: rgb(234, 235, 243);
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-content: center;
+    list-style: none;
+    display: flex;
 
 }
-.foto img{
-   position: relative;
-   top: 200px;
-   left: 150px;
+
+#tapContenido div {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    background: rgb(234, 235, 243);
+    border-radius: 0px 0px 10px 10px; 
+
+}
+
+#tapContenido div:not(:nth-child(1)) {
+    display: none;
+}
+
+#tapContenido div:target {
+    display: inline-block;
+    background: rgb(234, 235, 243);
+}
+
+#detalleInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+}
+#detalleInfo table{
+    background: rgb(234, 235, 243);
+    border-radius: 13px;
+    border: none;
+    box-shadow: 9px 9px 16px rgba(147, 168, 199, 0.6), -9px -9px 16px rgba(235, 239, 250, 0.5);
+    font-size: 20px;
+    padding: 30px;
+}
+#detalleInfo table tr:nth-child(even){
+    background: rgb(214, 218, 240);
+}
+footer{
+    display: flex;
+    background: none;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
 }
