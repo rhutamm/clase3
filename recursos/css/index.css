@@ -9,6 +9,7 @@ body{
     padding: 0px;
     margin: 0px;
     text-decoration: none;
+    min-width: 100vh;
 }
 header{
     display: flex;
@@ -19,7 +20,7 @@ header{
 
 }
 header li{
-    font-size: 25px;
+    font-size: 22px;
     margin: 10px;
     background: rgb(234, 235, 243);
     padding: 15px;
@@ -119,6 +120,9 @@ footer ul{
     letter-spacing: 30px;
     background: rgb(234, 235, 243);
     padding: 20px;
+    margin-bottom: 0;
+    margin-top: 60px;
+    font-size: 20px;
 }
 #tapContenido{
     display: flex;
