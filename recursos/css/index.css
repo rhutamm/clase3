@@ -36,6 +36,7 @@ a:hover{
     margin: 0px;
     padding: 0px;
     display: inline-flex;
+    
    }
    
 #tapContenedor ul {
@@ -46,8 +47,7 @@ a:hover{
 
 .botones {
     background: rgb(234, 235, 243);
-    color: black;
-    padding: 10px;
+    padding: 25px;
     margin: 10px;
     width: 50px;
     height: 50px;
@@ -55,15 +55,31 @@ a:hover{
     align-content: center;
     list-style: none;
     display: flex;
-
+    border: none;
+    box-shadow: 9px 9px 16px rgba(147, 168, 199, 0.6), -9px -9px 16px rgba(235, 239, 250, 0.5);
+    justify-content: center;
+}
+.botones a{
+    align-content: center;
+    padding: 10%;
+    margin: 5%;
+    color: black;
+}
+.botones a:hover{
+    color: cornflowerblue;
 }
 
 #tapContenido div {
     display: inline-block;
     position: absolute;
-    width: 50%;
+    width: 600px;
     background: rgb(234, 235, 243);
-    border-radius: 0px 0px 10px 10px; 
+    border-radius: 0px 0px 10px 10px;  
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    box-shadow: 9px 9px 16px rgba(147, 168, 199, 0.6), -9px -9px 16px rgba(235, 239, 250, 0.5);
 
 }
 
@@ -80,8 +96,9 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 20%;
 }
+
 #detalleInfo table{
     background: rgb(234, 235, 243);
     border-radius: 13px;
@@ -93,10 +110,22 @@ a:hover{
 #detalleInfo table tr:nth-child(even){
     background: rgb(214, 218, 240);
 }
-footer{
+footer ul{
     display: flex;
     background: none;
     flex-direction: row;
     justify-content: center;
     list-style: none;
+    letter-spacing: 30px;
+    background: rgb(234, 235, 243);
+    padding: 20px;
+}
+#tapContenido{
+    display: flex;
+    justify-content: center;
+}
+#tapContenedor ul{
+    top: 70px;
+    display: flex;
+    justify-content: center;
 }
